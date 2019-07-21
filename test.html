@@ -1,0 +1,13 @@
+<html>
+    <body></body>
+    <script>
+  function isNUmber(s){
+    // return /^[0-9]+.?[0-9]*$/.test(s)
+    return /^(-?\d+)(\.\d+)?$/.test(s)
+  }
+  let s = '12%';
+console.log('='+ isNUmber(s));
+let aotuContainer = document.getElementsByClassName('customer-autocomplete');
+console.log('aotuContainer.length=='+aotuContainer.length)
+    </script>
+</html>
